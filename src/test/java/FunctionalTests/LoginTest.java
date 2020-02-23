@@ -13,7 +13,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LoginTest {
+public class  LoginTest {
 	
 	//only for test cases
 	//setup -- init browser, url
@@ -60,7 +60,7 @@ public class LoginTest {
 		log.info("Username is: "+ prop.getProperty("username"));
 		log.info("Password is: "+ prop.getProperty("password"));
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		log.info("Test - freeCrmLoginTest - ended");
+		log.info("Test - freeCrmLoginTest -  Successfully ended");
 
 	}
 	
